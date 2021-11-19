@@ -4,6 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.prelim_exam.LoginFragment">
 
+    <data>
+        <variable
+            name="myViewModel"
+            type="com.example.prelim_exam.model.LoginViewModel" />
+    </data>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -16,6 +22,7 @@
             android:ems="10"
             android:hint="Username:"
             android:inputType="textPersonName"
+            android:text="@={myViewModel.username}"
             android:minHeight="48dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
@@ -31,6 +38,7 @@
             android:ems="10"
             android:hint="Password:"
             android:inputType="textPassword"
+            android:text="@={myViewModel.password}"
             android:minHeight="48dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editUsername" />
@@ -41,6 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="52dp"
             android:text="Login"
+            android:onClick="@={myViewModel.loginButton()}"
             app:layout_constraintEnd_toStartOf="@+id/btnRegister"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editPassword" />

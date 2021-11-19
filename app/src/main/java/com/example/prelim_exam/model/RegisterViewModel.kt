@@ -46,4 +46,5 @@ class RegisterViewModel(private val repository: UsersRepository) : ViewModel() {
             statusMessage.value = Event("Error Occurred")
         }
     }
+
 }

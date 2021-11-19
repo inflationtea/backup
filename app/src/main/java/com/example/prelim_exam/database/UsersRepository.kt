@@ -6,7 +6,9 @@ class UsersRepository(private val dao: UsersDatabaseDao) {
         return dao.insertUsers(users)
     }
 
-    val users = dao.displayUsers()
+    suspend fun getUserName(username: String):Users?{
+        return dao.getUsername(username)
+    }
 
 
 }

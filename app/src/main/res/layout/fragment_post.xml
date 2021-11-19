@@ -78,7 +78,6 @@
             android:layout_marginTop="48dp"
             android:layout_marginEnd="92dp"
             android:text="Clear All"
-            android:onClick="@{()->myViewModel.clear()}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editInqComment" />
     </androidx.constraintlayout.widget.ConstraintLayout>

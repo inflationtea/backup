@@ -12,7 +12,7 @@ interface UsersDatabaseDao {
     @Insert
     suspend fun insertUsers(users: Users) : Long
 
-    @Query("SELECT * FROM users_table ORDER BY userID DESC")
-    fun displayUsers(): Flow<List<Users>>
+    @Query("SELECT * FROM users_table WHERE username LIKE :username")
+    suspend fun getUsername(username: String): Users
 
 }
