@@ -12,8 +12,8 @@
             android:id="@+id/txtHome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="140dp"
-            android:layout_marginTop="156dp"
+            android:layout_marginStart="152dp"
+            android:layout_marginTop="116dp"
             android:text="Welcome!"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -60,5 +60,26 @@
             android:text="Discover the Content"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnFaq" />
+
+        <Button
+            android:id="@+id/Post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Post an Inquiry"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnContent" />
+
+        <Button
+            android:id="@+id/Display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Display Inquiries"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Post" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

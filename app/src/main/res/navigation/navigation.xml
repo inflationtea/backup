@@ -31,6 +31,12 @@
         <action
             android:id="@+id/action_homeFragment_to_contentFragment"
             app:destination="@id/contentFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_postFragment"
+            app:destination="@id/postFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_displayFragment"
+            app:destination="@id/displayFragment" />
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
@@ -52,4 +58,14 @@
         android:name="com.example.prelim_exam.ContentFragment"
         android:label="fragment_content"
         tools:layout="@layout/fragment_content" />
+    <fragment
+        android:id="@+id/displayFragment"
+        android:name="com.example.prelim_exam.DisplayFragment"
+        android:label="fragment_display"
+        tools:layout="@layout/fragment_display" />
+    <fragment
+        android:id="@+id/postFragment"
+        android:name="com.example.prelim_exam.PostFragment"
+        android:label="fragment_post"
+        tools:layout="@layout/fragment_post" />
 </navigation>

@@ -13,9 +13,12 @@
         <entry key="..\:/Users/higoi/AndroidStudioProjects/prelim_exam/app/src/main/res/menu/navdrawer_menu.xml" value="0.25" />
         <entry key="..\:/Users/higoi/AndroidStudioProjects/prelim_exam/app/src/main/res/menu/options_menu.xml" value="0.33" />
         <entry key="..\:/Users/higoi/AndroidStudioProjects/prelim_exam_tester/app/src/main/res/layout/fragment_display.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/higoi/AndroidStudioProjects/prelim_exam_tester/app/src/main/res/layout/fragment_display2.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/higoi/AndroidStudioProjects/prelim_exam_tester/app/src/main/res/layout/fragment_faq.xml" value="0.1526268115942029" />
         <entry key="..\:/Users/higoi/AndroidStudioProjects/prelim_exam_tester/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/higoi/AndroidStudioProjects/prelim_exam_tester/app/src/main/res/layout/fragment_post.xml" value="0.25" />
         <entry key="..\:/Users/higoi/AndroidStudioProjects/prelim_exam_tester/app/src/main/res/layout/fragment_register.xml" value="0.22" />
+        <entry key="..\:/Users/higoi/AndroidStudioProjects/prelim_exam_tester/app/src/main/res/layout/list_item.xml" value="0.22" />
       </map>
     </option>
   </component>

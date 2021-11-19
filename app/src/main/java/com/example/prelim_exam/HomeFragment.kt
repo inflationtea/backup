@@ -29,6 +29,12 @@ class HomeFragment : Fragment() {
         binding.btnFaq.setOnClickListener {
                 view: View -> view.findNavController().navigate(R.id.action_homeFragment_to_faqFragment)
         }
+        binding.Post.setOnClickListener {
+                view: View -> view.findNavController().navigate(R.id.action_homeFragment_to_postFragment)
+        }
+        binding.Display.setOnClickListener {
+                view: View -> view.findNavController().navigate(R.id.action_homeFragment_to_displayFragment)
+        }
         setHasOptionsMenu(true)
         return binding.root
     }
