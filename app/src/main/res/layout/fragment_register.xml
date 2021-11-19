@@ -4,6 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.prelim_exam.RegisterFragment">
 
+    <data>
+        <variable
+            name="myViewModel"
+            type="com.example.prelim_exam.model.RegisterViewModel" />
+    </data>
+
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -40,6 +47,7 @@
             android:layout_marginTop="16dp"
             android:ems="10"
             android:hint="enter your username:"
+            android:text="@={myViewModel.username}"
             android:inputType="textPersonName"
             android:minHeight="48dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -66,6 +74,7 @@
             android:layout_marginTop="28dp"
             android:ems="10"
             android:hint="Enter your password:"
+            android:text="@={myViewModel.password}"
             android:inputType="textPassword"
             android:minHeight="48dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -92,6 +101,7 @@
             android:layout_marginTop="20dp"
             android:ems="10"
             android:hint="Enter your email:"
+            android:text="@={myViewModel.email}"
             android:inputType="textEmailAddress"
             android:minHeight="48dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -105,6 +115,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="56dp"
             android:text="Register"
+            android:onClick="@{()->myViewModel.register()}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.216"
             app:layout_constraintStart_toStartOf="parent"
