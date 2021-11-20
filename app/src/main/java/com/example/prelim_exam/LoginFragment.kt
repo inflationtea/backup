@@ -11,8 +11,6 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
-import com.example.prelim_exam.database.UsersDatabase
-import com.example.prelim_exam.database.UsersRepository
 import com.example.prelim_exam.databinding.FragmentLoginBinding
 
 
@@ -41,9 +39,7 @@ class LoginFragment : Fragment() {
                 Toast.makeText(requireActivity(),"Incorrect username or password!",Toast.LENGTH_LONG).show()
             }
         }
-
         return binding.root
-
     }
 
 
