@@ -3,6 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/higoi/AndroidStudioProjects/midterm_exam/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/higoi/AndroidStudioProjects/midterm_exam/app/src/main/res/layout/fragment_about.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/higoi/AndroidStudioProjects/midterm_exam/app/src/main/res/layout/fragment_content.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/higoi/AndroidStudioProjects/midterm_exam/app/src/main/res/layout/fragment_display.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/higoi/AndroidStudioProjects/midterm_exam/app/src/main/res/layout/fragment_faq.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/higoi/AndroidStudioProjects/midterm_exam/app/src/main/res/layout/fragment_home.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/higoi/AndroidStudioProjects/midterm_exam/app/src/main/res/layout/fragment_login.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/higoi/AndroidStudioProjects/midterm_exam/app/src/main/res/layout/fragment_post.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/higoi/AndroidStudioProjects/midterm_exam/app/src/main/res/layout/fragment_register.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/higoi/AndroidStudioProjects/midterm_exam/app/src/main/res/layout/list_item.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/higoi/AndroidStudioProjects/prelim_exam/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/higoi/AndroidStudioProjects/prelim_exam/app/src/main/res/layout/fragment_about.xml" value="0.25" />
         <entry key="..\:/Users/higoi/AndroidStudioProjects/prelim_exam/app/src/main/res/layout/fragment_content.xml" value="0.25" />

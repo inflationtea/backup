@@ -25,6 +25,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="52dp"
             android:text="WhatsJob is a mobile application platform that aims to provide a job for workers under the nonstandard type of work, as well as allow the employers to hire workers on the same platform."
+            android:textSize="20sp"
             android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"

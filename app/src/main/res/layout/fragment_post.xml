@@ -17,12 +17,12 @@
             android:id="@+id/editInqName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="136dp"
+            android:layout_marginTop="124dp"
             android:ems="10"
             android:hint="enter your name:"
             android:inputType="textPersonName"
-            android:text="@={myViewModel.inqName}"
             android:minHeight="48dp"
+            android:text="@={myViewModel.inqName}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.447"
             app:layout_constraintStart_toStartOf="parent"
@@ -80,5 +80,7 @@
             android:text="Clear All"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editInqComment" />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

@@ -9,6 +9,8 @@ import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.prelim_exam.database.Inquiry
 import com.example.prelim_exam.database.InquiryDatabase
 import com.example.prelim_exam.database.InquiryRepository
 import com.example.prelim_exam.databinding.FragmentPostBinding
@@ -20,6 +22,7 @@ class PostFragment : Fragment() {
     private lateinit var binding: FragmentPostBinding
 
 
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -28,6 +31,11 @@ class PostFragment : Fragment() {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_post, container, false)
         val application = requireNotNull(this.activity).application
 
+        binding.btnClear.setOnClickListener {
+            binding.editInqName.setText(" ")
+            binding.editInqSubject.setText(" ")
+            binding.editInqComment.setText(" ")
+        }
         val dao = InquiryDatabase.getInstance(application).inquiryDatabase
         val repository = InquiryRepository(dao)
         val factory = PostViewModelFactory(repository)

@@ -1,9 +1,6 @@
 package com.example.prelim_exam.model
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
+import androidx.lifecycle.*
 import com.example.prelim_exam.Event
 import com.example.prelim_exam.database.Inquiry
 import com.example.prelim_exam.database.InquiryRepository
@@ -46,6 +43,7 @@ class PostViewModel(private val repository: InquiryRepository) : ViewModel() {
             statusMessage.value = Event("Error Occurred")
         }
     }
+
 
 
 }

@@ -27,6 +27,12 @@ class RegisterFragment : Fragment() {
         // Inflate the layout for this fragment
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_register, container, false)
 
+        binding.btnCancel.setOnClickListener {
+            binding.editUser2.setText(" ")
+            binding.editPass2.setText(" ")
+            binding.editEmail.setText(" ")
+        }
+
         val application = requireNotNull(this.activity).application
 
         val dao = UsersDatabase.getInstance(application).usersDatabase
@@ -44,6 +50,4 @@ class RegisterFragment : Fragment() {
         })
         return binding.root
     }
-
-
 }
