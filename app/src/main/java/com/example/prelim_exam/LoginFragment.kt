@@ -26,9 +26,10 @@ class LoginFragment : Fragment() {
         container, false)
 
         val navController = findNavController()
-        binding.btnRegister.setOnClickListener { view: View ->
+        binding.btnRegister.setOnClickListener {
             navController.navigate(R.id.action_loginFragment_to_registerFragment)
         }
+        
         binding.btnLogin.setOnClickListener {
             val username = binding.editUsername.text.toString()
             val password = binding.editPassword.text.toString()
